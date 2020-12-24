@@ -1,0 +1,11 @@
+{
+  "emulators": {
+    "hosting": {
+      "public": "public",
+      "port": 5000
+    },
+    "ui": {
+      "enabled": true
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "breakingbad-b05ad"
+  },
+  "targets": {
+    "breakingbad-b05ad": {
+      "hosting": {
+        "task": [
+          "breakingBad"
+        ]
+      }
+    }
+  }
+}

@@ -26,7 +26,7 @@ const styles = (theme) => ({
     width: "70vw",
     marginLeft: "auto",
     marginRight: "auto",
-    marginBottom: theme.spacing(2),
+    marginBottom: theme.spacing(1),
     [theme.breakpoints.down("sm")]: {
       width: "95vw",
     },
@@ -41,7 +41,8 @@ const styles = (theme) => ({
     },
   },
   gridContent: {
-    marginTop: theme.spacing(3),
+    marginTop: theme.spacing(1),
+    marginBottom: theme.spacing(2),
   },
   gridnameTypography: {
     fontFamily: "Courier",

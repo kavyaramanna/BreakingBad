@@ -23,13 +23,13 @@ const styles = (theme) => ({
 
   buttonStyle: {
     color: "white",
-    backgroundColor: "#1a8dff",
+    backgroundColor: "#ffbf00",
     borderRadius: "15px",
     padding: "10px",
     marginTop: theme.spacing(3),
     marginBottom: theme.spacing(2),
     "&:hover": {
-      backgroundColor: "#ffbf00",
+      backgroundColor: "#1a8dff",
     },
   },
   signUpTypography: {
@@ -38,10 +38,5 @@ const styles = (theme) => ({
     marginLeft: theme.spacing(7),
     marginBottom: theme.spacing(2),
   },
-  // breakingquoteImage: {
-  //   height: "50vh",
-  //   // marginTop: theme.spacing(32),
-  //   marginLeft: theme.spacing(13.5),
-  // },
 });
 export default styles;

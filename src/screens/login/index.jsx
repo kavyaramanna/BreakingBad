@@ -92,9 +92,10 @@ class Login extends React.Component {
   render() {
     const { classes } = this.props;
     return (
-      <Grid container direction="row" className={classes.container}>
+      <Grid container direction="row">
         <Grid
           container
+          direction="column"
           item
           xs={12}
           md={6}
